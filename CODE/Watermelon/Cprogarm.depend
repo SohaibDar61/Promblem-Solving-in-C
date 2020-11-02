@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1596543504 source:s:\c files\cprogarm\main.c
+	<stdio.h>
+	<ctype.h>
+
+1601254847 source:s:\c files\for practice\cprogarm\main.c
+	<stdio.h>
+
+1604305086 source:s:\c files\p.s  by codeforces\watermelon\main.c
+	<stdio.h>
+

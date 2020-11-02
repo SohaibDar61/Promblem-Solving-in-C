@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1602615015 source:s:\c files\p.s  by codeforces\way too long words\main.c
+	<stdio.h>
+	<string.h>
+
