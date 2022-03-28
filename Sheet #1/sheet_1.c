@@ -17,7 +17,7 @@
  * \param  (ptr_arr) pointer to the array
  * \param  (size) size of array
  * \return (int) return value
- *
+ */
 int Find_Max_Differernce(int *ptr_arr, int size)
 {
     int i, j;
@@ -43,7 +43,7 @@ int Find_Max_Differernce(int *ptr_arr, int size)
  * \param  (size1) the size of first array
  * \param  (size2) the size of second array
  * \return (void) None
- *
+ */
 void Merge_Array(int *ptr_arr1, int *ptr_arr2, int *arr_merge, int size1, int size2)
 {
     for(int i=0; i<size1+size2; i++)
@@ -59,7 +59,7 @@ void Merge_Array(int *ptr_arr1, int *ptr_arr2, int *arr_merge, int size1, int si
  * \param  (size1) the size of first array
  * \param  (size2) the size of second array
  * \return (void) None
- *
+ */
 void Merge_Array(int *ptr_arr1, int *ptr_arr2, int *arr_merge, int size1, int size2)
 {
     int i,k;
@@ -82,7 +82,7 @@ void Merge_Array(int *ptr_arr1, int *ptr_arr2, int *arr_merge, int size1, int si
  * \param  (str) pointer to the char array
  * \param  (ptr_arr) pointer to the int array
  * \return (int) return value
- *
+ */
 int Max_Repeat_char(char *str, int *ptr_arr)
 {
     int i, max;
@@ -113,7 +113,7 @@ int Max_Repeat_char(char *str, int *ptr_arr)
  * \param  (Ptr_arr) pointer to the array
  * \param  (size) the size of array
  * \return (int) return value
- *
+ */
 int Find_Repeat_Num(int *Ptr_arr, int size)
 {
     int i, j;
@@ -146,7 +146,7 @@ int Find_Repeat_Num(int *Ptr_arr, int size)
  * \param  (str) pointer to the string
  * \param  (len) the length of string
  * \return  NONE
- *
+ */
 void Reverse_string_words(char *str, int len)
 {
     int i, j, start_index, end_index;
@@ -181,7 +181,7 @@ void Reverse_string_words(char *str, int len)
  * \param  (length) the length of string
  * \param  (longest) pointer to array of char(longest word of string)
  * \return  NONE
- *
+ */
 void Find_Long_Word(char *str, char *longest, int length)
 {
     int count = 0;
@@ -231,7 +231,7 @@ void Find_Long_Word(char *str, char *longest, int length)
  * \param  (Ptr_arr) pointer to the array
  * \param  (size) the size of array
  * \return  NONE
- *
+ */
 void Reverse_Array(int* Ptr_arr, int size)
 {
     int i;
@@ -247,7 +247,7 @@ void Reverse_Array(int* Ptr_arr, int size)
  * \param  (Ptr_arr) pointer to the array
  * \param  (size) the size of array
  * \return  NONE
- *
+ */
 void Reverse_Array(int* Ptr_arr, int size)
 {
     int i;
@@ -266,7 +266,7 @@ void Reverse_Array(int* Ptr_arr, int size)
  * \param  (ch2) the first unsigned char
  * \param  (ch2) the second unsigned char
  * \return (int) return value
- *
+ */
 int Sum_Char(unsigned char ch1, unsigned char ch2)
 {
     return ((ch1-'0') + (ch2-'0'));
@@ -279,7 +279,7 @@ int Sum_Char(unsigned char ch1, unsigned char ch2)
  * \param  (Ptr_arr) pointer to the array
  * \param  (size) the size of array
  * \return (int) return value
- *
+ */
 int Find_MIN(int* Ptr_arr, int size)
 {
   static  int min_num = 0;
@@ -304,7 +304,7 @@ int Find_MIN(int* Ptr_arr, int size)
  * \param  (Ptr_arr) pointer to the array
  * \param  (size) the size of array
  * \return (int) return value
- *
+ */
 int Find_MAX(int* Ptr_arr, int size)
 {
     static  int max_num = 0;
@@ -335,7 +335,7 @@ int Find_MAX(int* Ptr_arr, int size)
  * \param  (Ptr_min_num) pointer to the minimum number
  * \param  (Ptr_max_num) pointer to the maximum number
  * \return (void) NONE
- *
+ */
 void Find_MIN_MAX(int* Ptr_arr, int size, int* Ptr_min_num, int* Ptr_max_num)
 {
     int index;
@@ -353,7 +353,7 @@ void Find_MIN_MAX(int* Ptr_arr, int size, int* Ptr_min_num, int* Ptr_max_num)
 
 //================================================================================================//
 
-/*
+
 typedef struct greaterSmaller{
     int greater;
     int smaller;
@@ -385,7 +385,7 @@ Struct Find_MIN_MAX(int* Ptr_arr, int size)
  * \param  (Ptr_arr) pointer to the array
  * \param  (size) the size of array
  * \return (int) return value
- *
+ */
 int Find_MIN_MAX(int* Ptr_arr, int* Ptr_min_num, int* Ptr_max_num)
 {
     int index;
@@ -410,7 +410,7 @@ int Find_MIN_MAX(int* Ptr_arr, int* Ptr_min_num, int* Ptr_max_num)
  * \brief  function to calculate the factorial of number try in 2 different way.
  * \param  (input_value) int number that determines end_range
  * \return (unsigned) return value
- *
+ */
 int Recursive_Factorial(int number_user)
 {
     if(number_user == 0) return 1;
@@ -422,7 +422,7 @@ int Recursive_Factorial(int number_user)
  * \brief  function to calculate the factorial of number try in 2 different way.
  * \param  (input_value) int number that determines end_range
  * \return (int) return value
- *
+ */
 int Find_Factorial(int number_user)
 {
     unsigned int fact = 1;
@@ -439,7 +439,7 @@ int Find_Factorial(int number_user)
  * \brief  function to sum numbers from 1 to 100 (without loop).
  * \param  (input_value) unsigned int number that determines end_range
  * \return (unsigned) return value
- *
+ */
 unsigned Sum_Without_Loop(unsigned int input_value)
 {
     //(N(N+1)/2)
@@ -452,7 +452,7 @@ unsigned Sum_Without_Loop(unsigned int input_value)
  * \brief  function to take number of lines and draw pattern with '*'
  * \param  (num_lines) the take number of lines
  * \return (None)
- *
+ */
 void Print_Pattern(unsigned int num_lines)
 {
      int row ,col;
@@ -476,7 +476,7 @@ void Print_Pattern(unsigned int num_lines)
  * \brief  function to take number of lines and draw pattern with '*'
  * \param  (num_lines) the take number of lines
  * \return (None)
- *
+ */
 void Print_Pattern(unsigned int num_lines)
 {
     int row ,col,space;
@@ -527,7 +527,7 @@ void Print_Pattern(unsigned int num_lines)
  * \brief  function to take number of lines and draw pattern with '*'
  * \param  (num_lines) the take number of lines
  * \return (None)
- *
+ */
 void Print_Pattern(unsigned int num_lines)
 {
     int row, col, space;
@@ -548,7 +548,7 @@ void Print_Pattern(unsigned int num_lines)
  * \brief  function to take number of lines and draw pattern with '*'
  * \param  (num_lines) the take number of lines
  * \return (None)
- *
+ */
 void Print_Pattern(unsigned int num_lines)
 {
     int row,col;
@@ -573,7 +573,7 @@ void Print_Pattern(unsigned int num_lines)
  * \brief  Write c function to print the binary representation of a number
  * \param  (number_user) the integer number that user gives
  * \return (None)
- *
+ */
 void Print_bin(unsigned int number_user)
 {
     unsigned int i;
@@ -593,7 +593,7 @@ void Print_bin(unsigned int number_user)
             representation of a number
  * \param  (number_user) the integer number that user gives
  * \return (int) return value
- *
+ */
 int Count_ONES(unsigned int number_user)
 {
     char count = 0 ;
@@ -617,7 +617,7 @@ int Count_ONES(unsigned int number_user)
  * \brief  function to check Whether the Number base is 2 or not
  * \param  (number_user) the integer number that user gives
  * \return (bool) return value with true or false
- *
+ */
 bool isPowerOfTwo(unsigned int number_user)
 {
  unsigned int power_Of_Two = 1;
@@ -632,7 +632,7 @@ bool isPowerOfTwo(unsigned int number_user)
  * \brief  function to check Whether the Number base is 2 or not
  * \param  (number_user) the integer number that user gives
  * \return (bool) return value with true or false
- *
+ */
 bool isPowerOfTwo(unsigned int number_user)
 {
     return(number_user != 0 && ((number_user & (~number_user +1)) == number_user));
@@ -646,7 +646,7 @@ bool isPowerOfTwo(unsigned int number_user)
  * \brief   function to check Whether the Number base is 2 or not
  * \param  (number_user) the integer number that user gives
  * \return (bool) return value with true or false
- *
+ */
 bool isPowerOfTwo(unsigned int number_user)
 {
    return (ceil(log2(number_user)) == floor(log2(number_user)));
@@ -658,7 +658,7 @@ bool isPowerOfTwo(unsigned int number_user)
  * \brief   function to check Whether the Number base is 2 or not
  * \param  (number_user) the integer number that user gives
  * \return (bool) return value with true or false
- *
+ */
 bool isPowerOfTwo(unsigned int number_user)
 {
    if(number_user == 0)
@@ -679,7 +679,7 @@ bool isPowerOfTwo(unsigned int number_user)
  * \brief  function to reverse digits in number
  * \param  (number_user) the integer number that user gives
  * \return (int) return value with the sum (sum all its digits)
- *
+ */
 int Reverse_digits(int number_user)
 {
     int rem_val=0,reverse_val=0;
@@ -700,7 +700,7 @@ int Reverse_digits(int number_user)
  * \brief  function to take a number and sum all its digits
  * \param  (number_user) the integer number that user gives
  * \return (int) return value with the sum (sum all its digits)
- *
+ */
 int Get_sum_digits(int number_user)
 {
     int rem_val=0,sum=0;
@@ -723,7 +723,7 @@ int Get_sum_digits(int number_user)
  * \param  (st_range) the start number user given[left]
  * \param  (En_range) the second number user given[right]
  * \return None
- *
+ */
 void Check_Prime_Range(int St_range, int En_range)
 {
     int i=0;
@@ -769,7 +769,7 @@ void Check_Prime_Range(int St_range, int En_range)
  * \param  (number_user) the integer number check prime or not
  * \param  (half_number_user) the half of number_user(number_user / 2)
  * \return (int) return int value
- *
+ */
 int Check_Prime(int number_user,int half_number_user){
 
     if(half_number_user==1){
@@ -789,7 +789,7 @@ int Check_Prime(int number_user,int half_number_user){
  * \brief  function to check whether a number is prime number or not
  * \param  (number_user) the integer number check prime or not
  * \return (unsigned) return unsigned value
- *
+ */
 unsigned char Chech_Prime(unsigned int number_user)
 {
     unsigned int index = 2;
@@ -813,7 +813,7 @@ unsigned char Chech_Prime(unsigned int number_user)
  * \brief  function to take an integer number and calculate its square root
  * \param  (number_user) the integer number that calculate its square root
  * \return (unsigned) return unsigned value
- *
+ */
 unsigned square_root(unsigned number_user)
 {
     unsigned root = 1;
