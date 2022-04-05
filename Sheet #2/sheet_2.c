@@ -357,7 +357,7 @@ void  Lower_TO_Upper_string(char *string_Lower, char *string_Upper)
 /**
  * \brief  Function that converts the any letter from lowercase to uppercase.
  * \param  (string_user) pointer to the string given
- * \return (char) return value
+ * \return (void) None
  */
 void  Lower_TO_Upper_string(char *string_user)
 {
